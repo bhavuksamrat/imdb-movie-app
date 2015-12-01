@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+</script> <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../static/autoComplete.js">
+</script>
+<div class="ui-widget">
+  <label for="movies">Movie: </label>
+  <input id="movies" class="ui-autocomplete-input" autocomplete="on"></input>
+  <button type="button" id="details">Get Details</button><br>
+  <label>Movie Name:</label><label id='name'></label><br>
+  <label>IMDB Score:</label><label id='score'></label><br>
+  <label>Popularity:</label><label id='popularity'></label><br>
+  <label>Director:</label><label id='director'></label><br>
+  
+</div>
